@@ -1,0 +1,23 @@
+
+.side-nav {
+    height: 100vh;
+    position: fixed;
+    width: 250px;
+    padding-top: 20px;
+    background-color: #f8f9fa;
+}
+
+.side-nav ul li {
+    list-style: none;
+}
+ /* Indent for second-level (submenu) links */
+ .side-nav ul ul {
+            padding-left: 30px; /* Adds indentation to the second level */
+        }
+
+        
+.main-content {
+    margin-left: 270px; /* width of the side nav + some padding */
+    padding: 20px;
+}
+
